@@ -1,0 +1,10 @@
+concurrency: 100
+loopCount: 10
+timeout: 180
+host: localhost
+scheme: http
+port: 8081
+headers:
+  Cookie: 'SessionID=123;'
+requests:
+  - GET: '/'
